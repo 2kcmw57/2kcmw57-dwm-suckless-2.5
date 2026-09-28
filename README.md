@@ -377,6 +377,28 @@ Ubuntu26.04.sh
 
 ---
 
+⚙️ Setup Scripts
+
+The repository includes installation scripts for several Linux distributions.
+
+### Fedora 44
+```bash
+chmod +x Fedora44.sh
+./Fedora44.sh
+```
+
+### Ubuntu 26.04
+```bash
+chmod +x Ubuntu26.04.sh
+./Ubuntu26.04.sh
+```
+
+### Arch Linux
+```bash
+chmod +x ArchLinux.sh
+./ArchLinux.sh
+```
+
 ## 🔨 Building the Suckless Components
 
 Each Suckless component can be built from its respective directory.

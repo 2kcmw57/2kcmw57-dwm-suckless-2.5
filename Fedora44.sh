@@ -102,6 +102,7 @@ info "Installing build dependencies..."
 
 sudo dnf install -y \
     gcc \
+    bat \
     make \
     git \
     pkgconf-pkg-config \
