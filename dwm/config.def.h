@@ -83,15 +83,13 @@ static const char *fonts[] = {
     "JetBrainsMono Nerd Font Mono:style=Bold:size=13"
 };
 
-/* Former kcmw.sh */
+/* Former 2kcmw57 */
 static const char *const autostart[][8] = {
     { "picom", NULL },
     { "slstatus", NULL },
-    { "feh", "--bg-scale", "/home/kcmw/Pictures/wallpapers/uwp4957647.png", NULL },
+    { "sh", "-c", "feh --bg-scale \"$(find ~/Pictures/wallpapers -type f | shuf -n 1)\"", NULL },
     { NULL }
 };
-
-
 
 /* ==================================================
    BAR SETTINGS
